@@ -1,0 +1,18 @@
+[user]
+	name = Johan Henriksson
+	email = johan.c.henriksson@gmail.com
+
+[core]
+	autocrlf = input
+
+[alias]
+	grog = log
+
+[pull]
+	rebase = true
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
