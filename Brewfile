@@ -12,6 +12,8 @@ brew "direnv"
 brew "git"
 # GitHub CLI
 brew "gh"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
 # Terminal UI for git commands
 brew "lazygit"
 
