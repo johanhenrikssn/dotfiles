@@ -42,8 +42,6 @@ alias unpushed='git log @{u}..HEAD'
 alias all-unpushed='git log --branches --not --remotes --oneline'
 # View latest unpushed commits on all branches
 alias unpushed-branches='git log --branches --not --remotes --oneline --decorate --simplify-by-decoration'
-# graphical for all branches
-alias git-grog='git config --global alias.grog 'log --graph --abbrev-commit --decorate --all --format=format:"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)"''
 
 #nvm
 export NVM_DIR="$HOME/.nvm"
