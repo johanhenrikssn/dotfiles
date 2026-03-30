@@ -42,6 +42,9 @@ alias all-unpushed='git log --branches --not --remotes --oneline'
 # View latest unpushed commits on all branches
 alias unpushed-branches='git log --branches --not --remotes --oneline --decorate --simplify-by-decoration'
 
+# fzf (ctrl+r: history, ctrl+t: files, alt+c: cd)
+source <(fzf --zsh)
+
 eval "$(direnv hook zsh)"
 
 export PATH="$HOME/.local/bin/:$PATH"

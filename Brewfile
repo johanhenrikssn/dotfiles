@@ -32,6 +32,8 @@ brew "awscli"
 brew "planetscale/tap/pscale"
 
 # Tools
+# Command-line fuzzy finder
+brew "fzf"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
 # Improved top (interactive process viewer)
