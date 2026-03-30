@@ -1,10 +1,10 @@
-source /usr/local/share/antigen/antigen.zsh
+source /opt/homebrew/share/antigen/antigen.zsh
 
 # Load Antigen configurations
 antigen init ~/.antigenrc
 
 # Add Homebrew's executable directory to the front of the PATH
-export PATH=/usr/local/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
 
 #Nvm
 export NVM_LAZY_LOAD=true
