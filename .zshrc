@@ -26,12 +26,14 @@ export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 alias y='yarn'
 alias dc='docker-compose'
 
-#TIER
-alias n="nvm use"
-alias yd="n && yarn db:start"
-alias yb="n && yarn backend start:watch"
-alias yf="n && yarn frontend start"
-alias yi="n && yarn install"
+# pnpm
+alias p='pnpm'
+alias pi='pnpm i'
+alias pd='pnpm dev'
+
+# centi
+alias c='centi'
+alias cdb='centi database'
 
 #Git alias
 # View commits in local branch vs. master
