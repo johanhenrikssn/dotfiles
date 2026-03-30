@@ -6,7 +6,8 @@ antigen init ~/.antigenrc
 # Add Homebrew's executable directory to the front of the PATH
 export PATH=/opt/homebrew/bin:$PATH
 
-#Nvm
+# nvm (lazy loaded via zsh-nvm antigen plugin)
+export NVM_DIR="$HOME/.nvm"
 export NVM_LAZY_LOAD=true
 
 # Override localization settings to use en_US (for example git)
@@ -41,11 +42,6 @@ alias unpushed='git log @{u}..HEAD'
 alias all-unpushed='git log --branches --not --remotes --oneline'
 # View latest unpushed commits on all branches
 alias unpushed-branches='git log --branches --not --remotes --oneline --decorate --simplify-by-decoration'
-
-#nvm
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 eval "$(direnv hook zsh)"
 
