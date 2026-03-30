@@ -27,6 +27,11 @@ alias y='yarn'
 alias dc='docker-compose'
 
 # pnpm
+export PNPM_HOME="$HOME/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
 alias p='pnpm'
 alias pi='pnpm i'
 alias pd='pnpm dev'
