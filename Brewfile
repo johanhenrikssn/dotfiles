@@ -48,8 +48,6 @@ brew "bash-completion"
 brew "htop"
 # Securely transfers data between computers
 brew "magic-wormhole"
-# Display directories as trees
-brew "tree"
 # Internet file retriever
 brew "wget"
 
