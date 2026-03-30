@@ -38,6 +38,8 @@ brew "fzf"
 brew "bat"
 # Modern ls replacement with git integration
 brew "eza"
+# JSON processor
+brew "jq"
 # Fast grep alternative
 brew "ripgrep"
 # Programmable completion for Bash 3.2
