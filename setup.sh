@@ -5,9 +5,9 @@
 brew bundle Brewfile
 
 # Create symlinks for dotfiles
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/.antigenrc ~/.antigenrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dev/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/dev/dotfiles/.antigenrc ~/.antigenrc
+ln -sf ~/dev/dotfiles/.gitconfig ~/.gitconfig
 
 # Create directory
 #mkdir ~/.nvm
