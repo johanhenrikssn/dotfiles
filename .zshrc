@@ -1,14 +1,16 @@
-source /opt/homebrew/share/antigen/antigen.zsh
-
-# Load Antigen configurations
-antigen init ~/.antigenrc
-
 # Add Homebrew's executable directory to the front of the PATH
 export PATH=/opt/homebrew/bin:$PATH
 
-# nvm (lazy loaded via zsh-nvm antigen plugin)
+# nvm (lazy loaded via zsh-nvm plugin)
 export NVM_DIR="$HOME/.nvm"
 export NVM_LAZY_LOAD=true
+
+# Antidote plugin manager
+source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
+antidote load ~/.zsh_plugins.txt
+
+# Pure prompt
+autoload -Uz promptinit && promptinit && prompt pure
 
 # Override localization settings to use en_US (for example git)
 export LANG=en_US.UTF-8
