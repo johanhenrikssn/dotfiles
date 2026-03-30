@@ -17,7 +17,6 @@ export LANG=en_US.UTF-8
 export AWS_DEFAULT_REGION="eu-central-1"
 #Alias
 alias y='yarn'
-alias dc='docker-compose'
 
 # pnpm
 export PNPM_HOME="$HOME/Library/pnpm"
