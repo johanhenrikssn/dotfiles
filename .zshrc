@@ -17,8 +17,6 @@ export LANG=en_US.UTF-8
 
 #AWS
 export AWS_DEFAULT_REGION="eu-central-1"
-#Alias
-alias y='yarn'
 
 # pnpm
 export PNPM_HOME="$HOME/Library/pnpm"
