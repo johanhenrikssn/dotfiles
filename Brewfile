@@ -1,52 +1,114 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "jesseduffield/lazydocker"
-tap "lucagrulla/tap"
-# AWS Cloud Development Kit - framework for defining AWS infra as code
-brew "aws-cdk"
-# Official Amazon AWS command-line interface
-brew "awscli"
-# Programmable completion for Bash 3.2
-brew "bash-completion"
+tap "planetscale/tap"
+
+# Shell
+# Zsh plugin manager
+brew "antidote"
+# Load/unload environment variables per directory
+brew "direnv"
+
+# Git
 # Distributed revision control system
 brew "git"
-# GNU grep, egrep and fgrep
-brew "grep"
+# GitHub CLI
+brew "gh"
+# Terminal UI for git commands
+brew "lazygit"
+
+# Node
+# Node version manager
+brew "nvm"
+# Language for application scale JavaScript development
+brew "typescript"
+
+# AWS
+# Official Amazon AWS command-line interface
+brew "awscli"
+
+# Databases
+# PlanetScale CLI
+brew "planetscale/tap/pscale"
+
+# Tools
+# Programmable completion for Bash 3.2
+brew "bash-completion"
 # Improved top (interactive process viewer)
 brew "htop"
 # Securely transfers data between computers
 brew "magic-wormhole"
-# Open source relational database management system
-brew "mysql"
-# Nvm
-brew "nvm"
-# Object-relational database system
-brew "postgresql"
-# Login and retrieve AWS temporary credentials using a SAML IDP
-brew "saml2aws"
-# Prints a steam locomotive if you type sl instead of ls
-brew "sl"
-# Editor of encrypted files
-brew "sops"
-# CLI for extracting streams from various websites to a video player
-brew "streamlink"
-# Terraform version manager inspired by rbenv
-brew "tfenv"
-# Linter for Terraform files
-brew "tflint"
-# Display directories as trees (with optional color/HTML output)
+# Display directories as trees
 brew "tree"
-# Language for application scale JavaScript development
-brew "typescript"
-# Secures, stores, and tightly controls access to secrets
-brew "vault"
 # Internet file retriever
 brew "wget"
-# JavaScript package manager
-brew "yarn"
-# A simple terminal UI for docker, written in Go
+
+# Docker
+# Terminal UI for docker
 brew "jesseduffield/lazydocker/lazydocker"
-# The best way to tail AWS Cloudwatch Logs from your terminal
-brew "lucagrulla/tap/cw"
+
+# Terminals
+# GPU-accelerated terminal emulator
+cask "ghostty"
+
+# Browsers
+# Chromium-based browser
+cask "arc"
+# Google Chrome
+cask "google-chrome"
+
+# Dev tools
+# AI-powered code editor
+cask "cursor"
+# Code editor
+cask "visual-studio-code"
+# AI code review CLI
+cask "coderabbit"
+
+# Design
+# Collaborative design tool
+cask "figma"
+
+# Communication
+# Team messaging
+cask "slack"
+# Voice and text chat
+cask "discord"
+# Messaging app
+cask "telegram"
+# Messaging app
+cask "whatsapp"
+
+# Productivity
+# Application launcher
+cask "alfred"
+# Window switcher
+cask "contexts"
+# Window management
+cask "rectangle"
+# Project management
+cask "linear-linear"
+# Notes and docs
+cask "notion"
+
+# Security
+# Password manager
+cask "1password"
+
+# Cloud storage
+# File sync and sharing
+cask "dropbox"
+
+# Media
+# Audio editor
+cask "audacity"
+# Music streaming
+cask "spotify"
+# Media player
+cask "vlc"
+
+# Utility
+# Prevent Mac from sleeping
+cask "keepingyouawake"
+
+# Fonts
+# Monospace font with programming ligatures
+cask "font-fira-code"
