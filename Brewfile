@@ -52,6 +52,8 @@ brew "htop"
 brew "magic-wormhole"
 # Internet file retriever
 brew "wget"
+# Smart directory jumper
+brew "zoxide"
 
 # Docker
 # Terminal UI for docker

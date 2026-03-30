@@ -56,6 +56,9 @@ export FZF_CTRL_T_OPTS="--preview 'bat --color=always --style=numbers --line-ran
 export FZF_ALT_C_COMMAND='fd --type d --hidden --exclude .git'
 source <(fzf --zsh)
 
+# zoxide (z/zi for directory jumping)
+eval "$(zoxide init zsh)"
+
 eval "$(direnv hook zsh)"
 
 export PATH="$HOME/.local/bin/:$PATH"
