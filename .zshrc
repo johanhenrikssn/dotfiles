@@ -12,16 +12,8 @@ export NVM_LAZY_LOAD=true
 # Override localization settings to use en_US (for example git)
 export LANG=en_US.UTF-8
 
-# saml2aws shell completion
-eval "$(saml2aws --completion-script-zsh)"
-
 #AWS
 export AWS_DEFAULT_REGION="eu-central-1"
-#export AWS_DEFAULT_PROFILE=account
-
-#OpenSSL
-export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
-
 #Alias
 alias y='yarn'
 alias dc='docker-compose'
