@@ -34,6 +34,8 @@ brew "planetscale/tap/pscale"
 # Tools
 # Command-line fuzzy finder
 brew "fzf"
+# Cat with syntax highlighting and line numbers
+brew "bat"
 # Modern ls replacement with git integration
 brew "eza"
 # Fast grep alternative
