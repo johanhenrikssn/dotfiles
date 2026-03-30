@@ -15,7 +15,7 @@ autoload -Uz promptinit && promptinit && prompt pure
 # Override localization settings to use en_US (for example git)
 export LANG=en_US.UTF-8
 
-#AWS
+# AWS
 export AWS_DEFAULT_REGION="eu-central-1"
 
 # pnpm
