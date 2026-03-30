@@ -36,6 +36,8 @@ brew "planetscale/tap/pscale"
 brew "fzf"
 # Cat with syntax highlighting and line numbers
 brew "bat"
+# Fast find alternative
+brew "fd"
 # Modern ls replacement with git integration
 brew "eza"
 # JSON processor

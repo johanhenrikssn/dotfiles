@@ -50,7 +50,10 @@ alias all-unpushed='git log --branches --not --remotes --oneline'
 alias unpushed-branches='git log --branches --not --remotes --oneline --decorate --simplify-by-decoration'
 
 # fzf (ctrl+r: history, ctrl+t: files, alt+c: cd)
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --exclude .git'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_CTRL_T_OPTS="--preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+export FZF_ALT_C_COMMAND='fd --type d --hidden --exclude .git'
 source <(fzf --zsh)
 
 eval "$(direnv hook zsh)"
