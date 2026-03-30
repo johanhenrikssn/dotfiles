@@ -32,7 +32,14 @@ alias pd='pnpm dev'
 alias c='centi'
 alias cdb='centi database'
 
-#Git alias
+# eza (ls replacement)
+alias ls='eza --icons --group-directories-first'
+alias l='eza -lah --icons --group-directories-first --git --time-style=relative'
+alias la='eza -lah --icons --group-directories-first --git --time-style=relative'
+alias ll='eza -lh --icons --group-directories-first --git --time-style=relative'
+alias lt='eza --tree --level=2 --icons --group-directories-first'
+
+# Git aliases
 # View commits in local branch vs. master
 alias current='git log $(git rev-parse --abbrev-ref HEAD) ^main --no-merges'
 # View unpushed commits

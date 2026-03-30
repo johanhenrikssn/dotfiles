@@ -34,6 +34,10 @@ brew "planetscale/tap/pscale"
 # Tools
 # Command-line fuzzy finder
 brew "fzf"
+# Modern ls replacement with git integration
+brew "eza"
+# Fast grep alternative
+brew "ripgrep"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
 # Improved top (interactive process viewer)
